@@ -1,5 +1,5 @@
 {
-  "name": "credit-card-token-generator",
+  "name": "gmo-payment-card-token-generator",
   "version": "0.1.0",
   "private": true,
   "scripts": {
