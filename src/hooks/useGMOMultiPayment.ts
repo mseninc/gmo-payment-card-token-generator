@@ -12,6 +12,7 @@ export const useGMOMultiPayment = () => {
   };
 };
 
+export type GetTokenParameters = Parameters<typeof Multipayment.getToken>[0];
 type useGMOMultiPaymentType = typeof useGMOMultiPayment;
 export type useGMOMultiPaymentResult = ReturnType<useGMOMultiPaymentType>;
 export type useGMOMultiPaymentGetTokenResult = Awaited<
